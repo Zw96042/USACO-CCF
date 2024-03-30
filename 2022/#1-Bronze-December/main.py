@@ -1,7 +1,6 @@
 N = int(input())
 C = [int(i) for i in input().split()]
 
-# Find least possible amount of tuition
 revenue = min(C)
 tuition = 1000000
 
@@ -15,4 +14,3 @@ for i in range(N-1):
         tuition = min(C[i], tuition)
     
 print(revenue, tuition)
-# print(tuition2)
