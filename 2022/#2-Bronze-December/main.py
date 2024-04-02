@@ -16,11 +16,10 @@ Cows don't have to move
 """
 T = int(input())
 
-T = int(input())
-
 for _ in range(T):
     N, K = map(int, input().split())
     patches = ['.'] * N
+    print(patches)
     last_g = -K - 1
     last_h = -K - 1
     S = input()
